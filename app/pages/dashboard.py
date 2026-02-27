@@ -2,13 +2,13 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
-import streamlit as st          # streamlit run app/app.py
+import streamlit as st          #
 from wordcloud import WordCloud
 
 st.set_page_config( 'Analysis Dashboard', ':bar_chart:', 'wide' )
 
 #df = pd.read_csv( r'C:\Users\X2-win\Desktop\Python Kursmaterialien\New Horizon\Data Science\ds_Session_10_Zara_3_lösungen\data\cleaned data\cleaned_data.csv' )
-df = pd.read_csv(r'data\cleaned data\cleaned_data.csv')
+df = pd.read_csv(r'..\data\cleaned data\cleaned_data.csv')
 
 
 
