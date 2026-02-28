@@ -8,7 +8,7 @@ from wordcloud import WordCloud
 st.set_page_config( 'Analysis Dashboard', ':bar_chart:', 'wide' )
 
 #df = pd.read_csv( r'C:\Users\X2-win\Desktop\Python Kursmaterialien\New Horizon\Data Science\ds_Session_10_Zara_3_lösungen\data\cleaned data\cleaned_data.csv' )
-df = pd.read_csv('\data\cleaned data\cleaned_data.csv')
+df = pd.read_csv('/data/cleaned data/cleaned_data.csv')
 
 
 
